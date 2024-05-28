@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krisna Taufik</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hill Cipher 2x2</h1>
+        <label for="matriks">Input Matriks nya:</label>
+        
+    <!-- untuk menginputkan angka di matriks 2x2 -->
+        <input type="number" id="matriks1" placeholder="matriks ke 1">
+        <input type="number" id="matriks2" placeholder="matriks ke 2">
+        <input type="number" id="matriks3" placeholder="matriks ke 3">
+        <input type="number" id="matriks4" placeholder="matriks ke 4">
+
+    <!-- menginputkan teks yang akan di enkripsikan -->
+        <label for="plainb text">Input teks yang ingin di enkripsikan:</label>
+        <textarea id="plaintext" rows="4" placeholder="ketik disini"></textarea>
+
+        <button onclick="enkripsi()">Enkripsi</button>
+
+    <!-- untuk menampilkan teks yang telah dienkripsikan -->
+        <h3>Output:</h3>
+        <textarea id="ciphertext" rows="4" placeholder="hasil nya akan muncul disini"></textarea>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
